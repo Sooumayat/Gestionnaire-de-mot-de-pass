@@ -8,7 +8,7 @@ body{
   background-size: cover;
 }
 
-section{
+#connexion{
   border: 3px solid #EA96E0;
   border-radius: 13px;
   background-color: black;
@@ -19,4 +19,57 @@ section{
 
   text-align: center;
   color: #C70039;
+}
+
+#accueil{
+  height: 500px;
+  width: 1050px;
+  border: 3px solid #EA96E0;
+  border-radius: 13px;
+  background-color: black;
+
+  margin: 95px auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ajouterM{
+  height: 450px;
+  width: 400px;
+  border: 3px solid #EA96E0;
+  border-radius: 13px;
+  background: #DCD0DA;
+}
+
+.right{
+  margin-left: 70px;
+}
+
+
+
+button{
+
+  height: 30px;
+  width: 80px;
+}
+
+.listes{
+  height: 450px;
+  width: 300px;
+  border: 3px solid #EA96E0;
+  border-radius: 13px;
+  background: #DCD0DA;
+}
+
+.noms{
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 10px auto;
 }
