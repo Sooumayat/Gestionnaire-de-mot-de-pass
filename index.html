@@ -3,20 +3,24 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" href="script.js">
+
+    </script>
     <title>Gestionnaire de mots de passe</title>
   </head>
   <body>
+    <h1 class="ok">EN CHANTIER /!\</h1>
     <section id="connexion">
       <h3>Connexion</h3>
       <form action="index.html" method="post">
 
         <label for="login">Identification</label>
-        <input type="text" id="login" name="Identification"><br><br>
+        <input type="text" id="username" name="Identification"><br><br>
 
         <label for="password">Mot de passe </label>
         <input type="password" id="password" name="Mots de passe"><br><br>
 
-        <input type="submit" value="Connexion">
+        <input type="submit" value="Connexion" onclick="Login()">
 
       </form>
     </section>
